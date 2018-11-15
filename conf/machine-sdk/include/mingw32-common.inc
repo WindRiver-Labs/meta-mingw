@@ -1,6 +1,7 @@
 SDK_OS = "mingw32"
 NATIVESDKLIBC = "libc-mingw"
 
+GCCPIE_mingw32 = ""
 GCCTHREADS_mingw32 = "win32"
 
 PREFERRED_PROVIDER_virtual/nativesdk-${SDK_PREFIX}libc-for-gcc_mingw32 = "nativesdk-mingw-w64-runtime"
